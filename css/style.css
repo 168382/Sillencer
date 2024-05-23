@@ -13,3 +13,42 @@ font-weight: bold;
 .topnav-right{
     text-align: right;
 }
+.signup{
+    text-decoration: antiquewhite;
+    text-align:center;
+    display: flex;
+    background-color:transparent;color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:none;
+    width:60%;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: red;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+}
+
