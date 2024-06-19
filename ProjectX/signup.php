@@ -7,21 +7,7 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div class="navbar">
-        <div class="topnav">
-         <a href="page.html">Home</a>
-         <a href="about.html">About us</a>
-         <a href="service.html">Services</a>
-         <a href="form.html">Order</a>
-         <a href="contact.html">Contact us</a>
-         <a href="chanel.html">channel</a>
-         <a href="feedback.html">Feedback</a>
-         
-         <div class="topnav-right">
-             <a href="signin.html">sign in</a>
-             <a href="signup.html">sign up</a>
-         </div>    
-    </div>
+<?php include_once("templates/nav.php");?>
     <div class="main">
         <div class="header">
           <h1>Don't have an account?</h1>
