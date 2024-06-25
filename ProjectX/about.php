@@ -7,22 +7,9 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div class="navbar">
-        <div class="topnav">
-         <a href="page.html">Home</a>
-         <a href="about.html">About us</a>
-         <a href="service.html">Services</a>
-         <a href="form.html">Order</a>
-         <a href="contact.html">Contact us</a>
-         <a href="chanel.html">channel</a>
-         <a href="feedback.html">Feedback</a>
-        
-         <div class="topnav-right">
-             <a href="signin.html">sign in</a>
-             <a href="signup.html">sign up</a>
-         </div>    
-     </div>  
+    
 </body>
+<?php include_once("templates/nav.php");?>
 <div>
     <h1>Prosperity Through Quality Foods</h1>
     <p>As a leading player in Los Angeles's food sector established in 2023, we are committed to serving the country's growing middle class through expanding our position in Los Angeles's dynamic upstream and downstream food industry.</p>
@@ -38,6 +25,6 @@
 <footer>@WEX RESTARUANT</footer>
 <fieldset>phone number (+) 234 342677
 
-    www.wexitalian@gmail</fieldset>
+   <footer></footer> @www.wexitalian@gmail</fieldset>
 
 </html>
