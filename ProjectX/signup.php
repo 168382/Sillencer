@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sign up</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
+<?php
 
+include_once("templates/head.php");
+include_once("templates/nav.php");
+?>
 
-<?php include_once("templates/nav.php");?>
     <div class="main">
         <div class="header">
           <h1>Don't have an account?</h1>
@@ -40,8 +34,11 @@
             </form>
         </div>
     </div>
-         
-                     
-
+<!--Footer-->
+    <footer @WEX RESTARUANT>
+     <p>Call us (+) 234 342677</p>
+            <br>
+     <p>email @www.wexitalian@gmail</p>
+        </footer>
 </body>
 </html>
