@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-    
-</body>
-<?php include_once("templates/nav.php");?>
+<?php
+include_once("templates/head.php");
+include_once("templates/nav.php");?>
 <div>
     <h1>Prosperity Through Quality Foods</h1>
     <p>As a leading player in Los Angeles's food sector established in 2023, we are committed to serving the country's growing middle class through expanding our position in Los Angeles's dynamic upstream and downstream food industry.</p>
@@ -22,9 +13,4 @@
     <p>Determined & Committed.</p>
     <p>Continuous Profitable Growth.</p>
 </div>
-<footer>@WEX RESTARUANT</footer>
-<fieldset>phone number (+) 234 342677
-
-   <footer></footer> @www.wexitalian@gmail</fieldset>
-
-</html>
+<?php include_once("templates/footer.php");?>
