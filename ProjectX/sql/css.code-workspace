@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../css"
+		},
+		{
+			"path": "../db.sql"
+		},
+		{
+			"path": "../img"
+		},
+		{
+			"path": "../PHP"
+		},
+		{
+			"path": "../ProjectX"
+		},
+		{
+			"path": "../session"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../templates"
+		}
+	]
+}

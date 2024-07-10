@@ -1,5 +1,4 @@
-<div class="navbar">
-        <div class="topnav">
+<div class="topnav">
          <a href="page.php">Home</a>
          <a href="about.php">About us</a>
          <a href="service.php">Services</a>
