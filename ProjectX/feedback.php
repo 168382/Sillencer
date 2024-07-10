@@ -1,21 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>feedback</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-
-
+<?php require_once("templates/header.php");?>
 <?php include_once("templates/nav.php");?>
+
      <div class="main">
         <div class="header">
-          <h1>FEEDBACK?</h1>
-    
-          
+          <h1>FEEDBACK?</h1> 
         </div>
+
           <div class="Feedback">
             <form action="feedback" method="post">
                 <div class="form-group">
