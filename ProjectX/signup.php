@@ -1,8 +1,5 @@
-<?php
-
-include_once("templates/head.php");
-include_once("templates/nav.php");
-?>
+<?php require_once("templates/header.php");?>
+<?php include_once("templates/nav.php");?>
 
     <div class="main">
         <div class="header">
