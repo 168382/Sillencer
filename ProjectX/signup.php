@@ -1,7 +1,22 @@
 <?php require_once("templates/header.php");?>
 <?php include_once("templates/nav.php");?>
+<?php require_once("Database/db_connect.php"); ?>
 
-    <div class="main">
+if(isset($_POST["sign_up"])){
+        $_SESSION["fullname"] = $fullname = mysqli_real_escape_string($conn, ucwords(strtolower($_POST["fullname"])));
+        $_SESSION["email"] = $email = mysqli_real_escape_string($conn, strtolower($_POST["email_address"]));
+        $_SESSION["username"] = $username = mysqli_real_escape_string($conn, strtolower($_POST["username"]));
+        $_SESSION["passphrase"] = $passphrase = mysqli_real_escape_string($conn, $_POST["passphrase"]);
+        $_SESSION["rep_pass"] = $rep_pass = mysqli_real_escape_string($conn, $_POST["rep_pass"]);
+
+        unset($_SESSION["error"]);
+        // verify that the full name contains only letters, space and single quotation
+        if(ctype_alpha(str_replace(" ", "", str_replace("\'", "", $fullname))) === FALSE){
+            $_SESSION["nameLetter_err"] = "wrong name format";
+            $_SESSION["error"] = "";
+        }
+    }
+<div class="main">
         <div class="header">
           <h1>Don't have an account?</h1>
           <p>Create account</p>
