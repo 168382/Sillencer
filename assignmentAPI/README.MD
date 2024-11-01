@@ -1,4 +1,11 @@
-class Product:
+# members BBIT2.2C
+ 166317  Sururu Edwin
+166891  Geoffrey Emil
+168382  Vincet Rimba
+
+# this project is about mini shopping system where customers can add or remove products from their cart, and then create an order. 
+
+   class Product:
     def __init__(self, product_id, name, price):
         self.product_id = product_id
         self.name = name
@@ -77,4 +84,3 @@ cust.view_cart()
 # Create order
 order = Order(1, cust)
 order.display_order()
-
