@@ -1,4 +1,9 @@
-class Product:
+# BBIT2.2C
+168382  Vincet Rimba
+
+# this project is about mini shopping system where customers can add or remove products from their cart, and then create an order. 
+
+   class Product:
     def __init__(self, product_id, name, price):
         self.product_id = product_id
         self.name = name
