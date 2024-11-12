@@ -12,4 +12,4 @@
     <p>Determined & Committed.</p>
     <p>Continuous Profitable Growth.</p>
 </div>
-<?php include_once("templates/footer.php");?>
+<?php include_once("templates/footer.php");
